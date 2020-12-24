@@ -1,3 +1,12 @@
+// ==UserScript==
+// @name         Youtube next-prev chapter
+// @version      0.1
+// @description  next-prev chapter on N or B key press
+// @author       4cd87a
+// @match        https://www.youtube.com/*
+// @grant        none
+// ==/UserScript==
+
 function next_chapter() {
 	console.log('next_chapter');
 	var ct = document.getElementsByTagName('video')[0].currentTime;
